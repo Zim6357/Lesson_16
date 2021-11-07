@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&display=swap&subset=cyrillic-ext");
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+	line-height: 1;
+	overflow-x: hidden;
+}
+.wrapper {
+	min-height: 100%;
+	
+}
+.header {
+	background-color: #c5b8b8;
+	display: flex;
+	justify-content: center;
+	padding: 25px 0px 25px 0px;
+}
+.header__tittle {
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: capitalize;
+	color: #fff;
+	flex: 0 1 auto;
+	
+}
+
+.main {
+	padding: 25px 0px;
+	display: flex;
+	justify-content: center;
+	background: url("../img/BG.jpg");
+}
+.make {
+	max-width: 585px;
+	background-color: #5D62B5;
+	border-radius: 40px;
+	padding: 76px 57px 76px 57px;
+	text-transform: capitalize;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+}
+
+.make__tittle {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	margin-bottom: 47px;
+}	
+.make__forms {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+	
+	
+}
+.form__item {
+	flex: 0 1 calc(50% - 11.22px);
+	border: 2px solid #fff;
+	border-radius: 15px;
+	margin-bottom: 25px;
+}
+.form__input {
+	width: 100%;
+    background-color: transparent;
+    padding: 15px 24px;
+    outline: none;
+    color: #fff;
+	font-family: "Roboto";
+    font-size: 16px;
+    letter-spacing: 0.15px;
+	text-transform: capitalize;
+}
+.form__input::placeholder {
+	color: #fff;
+	transition: all 0.3s ease 0s;
+}
+
+.form__item_width {
+	flex: 1 1 100%;
+	
+}
+.form__textarea__height {
+	min-height: 170px;
+	text-transform: none;
+
+
+}
+.button__form {
+	display: flex;
+	justify-content: end;
+}
+.button__reset {
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 1.5;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #f2726f;
+	padding: 25px 32px;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
